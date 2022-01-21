@@ -1,0 +1,52 @@
+// app global css in SCSS form
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import 'flags.css';
+
+body {
+  background-color: $primary;
+  color: $primary;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+}
+
+#footer {
+  color: $secondary;
+  font-size: 0.8em;
+}
+
+#header {
+  color: $secondary;
+  /* margin-bottom: 10px; */
+}
+
+.q-drawer {
+  background-color: $primary;
+  color: #ffffff;
+
+  .q-item.q-router-link--active {
+    color: #ffffff;
+  }
+
+  .q-item.q-router-link--exact-active {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .q-item__label--header {
+    color: rgba(255, 255, 255, 0.8)
+  }
+
+  .q-item__section--avatar {
+    min-width: 24px;
+  }
+
+  .q-item__section--side {
+    padding-right: 8px;
+  }
+}
+
+.white-page {
+  background-color: #ffffff;
+  color: $primary;
+  /* max-width: 600px; */
+}
